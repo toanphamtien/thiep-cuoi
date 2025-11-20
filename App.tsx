@@ -117,7 +117,7 @@ function App() {
            <ScrollSection className="bg-white/10 backdrop-blur-md p-8 rounded-xl border border-wedding-gold/30 shadow-2xl max-w-2xl">
               <div className="mb-4">
               <p className="text-xl md:text-2xl font-script uppercase tracking-widest mb-2 text-wedding-gold">Trân Trọng Kính Mời Tới Dự</p>
-               <h1 className="text-4xl md:text-6xl font-serif text-wedding-gold drop-shadow-lg mb-2">Lễ Thành Hôn</h1>
+               <h1 className="text-4xl md:text-6xl font-bold text-wedding-gold drop-shadow-lg mb-2">Lễ Thành Hôn</h1>
                {guestName && (
                  <div className="my-4">
                    <span className="text-sm uppercase tracking-widest opacity-80">Khách mời</span>
@@ -151,7 +151,7 @@ function App() {
                 {/* Groom */}
                 <div className="flex flex-col items-center text-center">
                   <div className="w-48 h-48 md:w-64 md:h-64 rounded-full border-4 border-wedding-gold p-1 overflow-hidden shadow-2xl relative mb-6 group">
-                    <img src={data.groomPhoto} alt="Groom" className="w-full h-full object-cover rounded-full transition duration-700 group-hover:scale-110" />
+                    <img src={data.groomPhoto} alt="Groom" className="w-full h-full object-cover object-top rounded-full transition duration-700 group-hover:scale-110" />
                   </div>
                   <h2 className="text-3xl font-script text-wedding-gold">Chú Rể</h2>
                   <h3 className="text-2xl font-bold mt-2 mb-4">{data.groomName}</h3>
@@ -168,7 +168,7 @@ function App() {
                 {/* Bride */}
                 <div className="flex flex-col items-center text-center">
                   <div className="w-48 h-48 md:w-64 md:h-64 rounded-full border-4 border-wedding-gold p-1 overflow-hidden shadow-2xl relative mb-6 group">
-                    <img src={data.bridePhoto} alt="Bride" className="w-full h-full object-cover rounded-full transition duration-700 group-hover:scale-110" />
+                    <img src={data.bridePhoto} alt="Bride" className="w-full h-full object-cover object-top rounded-full transition duration-700 group-hover:scale-110" />
                   </div>
                   <h2 className="text-3xl font-script text-wedding-gold">Cô Dâu</h2>
                   <h3 className="text-2xl font-bold mt-2 mb-4">{data.brideName}</h3>
@@ -212,7 +212,7 @@ function App() {
                    <h4 className="text-2xl font-serif font-bold mb-2">{data.locationName}</h4>
                    <p className="max-w-xs mx-auto opacity-80 mb-4">{data.locationAddress}</p>
                    <a 
-                     href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(data.locationAddress)}`}
+                     href={data.locationLink}
                      target="_blank" 
                      rel="noreferrer"
                      className="px-6 py-2 bg-wedding-red text-wedding-cream rounded-full hover:bg-red-900 transition text-sm font-bold shadow-lg"
@@ -286,7 +286,7 @@ function App() {
         {/* Footer */}
         <footer className="py-10 text-center opacity-60 text-sm">
            <p className="font-script text-xl text-wedding-gold mb-2">{data.groomName} & {data.brideName}</p>
-           <p>Cảm ơn quý khách đã chia vui cùng gia đình.</p>
+           <p>Sự hiện diện của quý vị là niềm vinh hạnh cho gia đình chúng tôi.</p>
         </footer>
 
       </div>
