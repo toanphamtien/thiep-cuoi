@@ -115,8 +115,8 @@ function App() {
         {/* Header Section (The "Card" inside) */}
         <section className="min-h-screen flex flex-col items-center justify-center pt-20 pb-10 px-4 relative text-center">
            <ScrollSection className="bg-white/10 backdrop-blur-md p-8 rounded-xl border border-wedding-gold/30 shadow-2xl max-w-2xl">
-             <div className="mb-4">
-               <p className="text-xl md:text-2xl font-script uppercase tracking-widest mb-2 text-wedding-gold">Trân Trọng Kính Mời Tới Dự</p>
+              <div className="mb-4">
+              <p className="text-xl md:text-2xl font-script uppercase tracking-widest mb-2 text-wedding-gold">Trân Trọng Kính Mời Tới Dự</p>
                <h1 className="text-4xl md:text-6xl font-serif text-wedding-gold drop-shadow-lg mb-2">Lễ Thành Hôn</h1>
                {guestName && (
                  <div className="my-4">
