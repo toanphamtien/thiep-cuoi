@@ -57,5 +57,5 @@ export const DEFAULT_WEDDING_DATA: WeddingData = {
     { time: "16:00", activity: "Làm lễ thành hôn" },
     { time: "16:15", activity: "Khai tiệc" },
   ],
-  musicUrl: "/audio/music.mp3" 
+  musicUrl: "/audio/mot-nha-dalab.mp3" 
 };
