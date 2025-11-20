@@ -30,9 +30,9 @@ export interface WeddingData {
 export const DEFAULT_WEDDING_DATA: WeddingData = {
   groomName: "Phạm Tiến Toản",
   brideName: "Phạm Thị Duyên",
-  groomPhoto: "/images/groom.jpg",
-  bridePhoto: "/images/bride.jpg",
-  couplePhoto: "/images/couple.jpg",
+  groomPhoto: (import.meta as any).env.BASE_URL + 'images/groom.jpg',
+  bridePhoto: (import.meta as any).env.BASE_URL + 'images/bride.jpg',
+  couplePhoto: (import.meta as any).env.BASE_URL + 'images/couple.jpg',
   weddingDate: "2025-12-29",
   weddingTime: "16:00",
   locationName: "Tại tư gia nhà trai",
@@ -44,18 +44,18 @@ export const DEFAULT_WEDDING_DATA: WeddingData = {
   brideMother: "Đinh Thị Chuẩn",
   invitationMessage: "Hân hạnh báo tin vui và kính mời quý khách đến dự buổi tiệc chung vui cùng gia đình chúng tôi.",
   galleryImages: [
-    "/images/DSC03574.jpg",
-    "/images/DSC03345.jpg",
-    "/images/DSC03549.jpg",
-    "/images/DSC03395.jpg",
-    "/images/DSC03562.jpg",
-    "/images/DSC03533.jpg",
-    "/images/DSC03523.jpg",
+    (import.meta as any).env.BASE_URL + 'images/DSC03574.jpg',
+    (import.meta as any).env.BASE_URL + 'images/DSC03345.jpg',
+    (import.meta as any).env.BASE_URL + 'images/DSC03549.jpg',
+    (import.meta as any).env.BASE_URL + 'images/DSC03395.jpg',
+    (import.meta as any).env.BASE_URL + 'images/DSC03562.jpg',
+    (import.meta as any).env.BASE_URL + 'images/DSC03533.jpg',
+    (import.meta as any).env.BASE_URL + 'images/DSC03523.jpg',
   ],
   weddingSchedule: [
     { time: "13:00", activity: "Đón Dâu" },
     { time: "16:00", activity: "Làm lễ thành hôn" },
     { time: "16:15", activity: "Khai tiệc" },
   ],
-  musicUrl: "/audio/mot-nha-dalab.mp3" 
+  musicUrl: (import.meta as any).env.BASE_URL + 'audio/mot-nha-dalab.mp3'
 };
