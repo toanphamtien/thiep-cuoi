@@ -42,10 +42,10 @@ export const DEFAULT_WEDDING_DATA: WeddingData = {
   brideMother: "Đinh Thị Chuẩn",
   invitationMessage: "Hân hạnh báo tin vui và kính mời quý khách đến dự lễ thành hôn của chúng tôi.",
   galleryImages: [
-    "https://picsum.photos/400/600?random=10",
-    "https://picsum.photos/400/600?random=11",
-    "https://picsum.photos/400/600?random=12",
-    "https://picsum.photos/400/600?random=13",
+    "/images/gallery1.svg",
+    "/images/gallery2.svg",
+    "/images/gallery3.svg",
+    "/images/gallery4.svg",
   ],
   weddingSchedule: [
     { time: "17:30", activity: "Đón khách" },
@@ -53,5 +53,5 @@ export const DEFAULT_WEDDING_DATA: WeddingData = {
     { time: "19:15", activity: "Khai tiệc" },
     { time: "20:30", activity: "Chụp ảnh lưu niệm" }
   ],
-  musicUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" // Public domain placeholder
+  musicUrl: "/audio/music.mp3" // Local placeholder
 };
