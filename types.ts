@@ -9,7 +9,7 @@ export interface WeddingData {
   brideName: string;
   groomPhoto: string;
   bridePhoto: string;
-  couplePhoto: string; // Main large photo
+  couplePhoto: string;
   weddingDate: string;
   weddingTime: string;
   locationName: string;
@@ -28,8 +28,8 @@ export interface WeddingData {
 }
 
 export const DEFAULT_WEDDING_DATA: WeddingData = {
-  groomName: "Phạm Tiến Toản",
-  brideName: "Phạm Thị Duyên",
+  groomName: "Tiến Toản",
+  brideName: "Phạm Duyên",
   groomPhoto: (import.meta as any).env.BASE_URL + 'images/groom.jpg',
   bridePhoto: (import.meta as any).env.BASE_URL + 'images/bride.jpg',
   couplePhoto: (import.meta as any).env.BASE_URL + 'images/couple.jpg',
@@ -53,9 +53,8 @@ export const DEFAULT_WEDDING_DATA: WeddingData = {
     (import.meta as any).env.BASE_URL + 'images/DSC03523.jpg',
   ],
   weddingSchedule: [
-    { time: "13:00", activity: "Đón Dâu" },
-    { time: "16:00", activity: "Làm lễ thành hôn" },
-    { time: "16:15", activity: "Khai tiệc" },
+    { time: "13:00", activity: "Lễ Ăn Hỏi / Rước Dâu" },
+    { time: "16:00", activity: "Lễ Thành Hôn / Tiệc Cưới" },
   ],
   musicUrl: (import.meta as any).env.BASE_URL + 'audio/mot-nha-dalab.mp3'
 };
