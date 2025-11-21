@@ -33,7 +33,7 @@ export const DEFAULT_WEDDING_DATA: WeddingData = {
   groomPhoto: (import.meta as any).env.BASE_URL + 'images/groom.jpg',
   bridePhoto: (import.meta as any).env.BASE_URL + 'images/bride.jpg',
   couplePhoto: (import.meta as any).env.BASE_URL + 'images/couple.jpg',
-  weddingDate: "2025-11-29",
+  weddingDate: "2025-11-29 DL",
   weddingTime: "16:00",
   locationName: "Tại tư gia nhà trai",
   locationAddress: "Thôn 3 Du Lễ, xã Nghi Dương, TP. Hải Phòng",
@@ -49,7 +49,7 @@ export const DEFAULT_WEDDING_DATA: WeddingData = {
     (import.meta as any).env.BASE_URL + 'images/DSC03549.jpg',
     (import.meta as any).env.BASE_URL + 'images/DSC03395.jpg',
     (import.meta as any).env.BASE_URL + 'images/DSC03562.jpg',
-    (import.meta as any).env.BASE_URL + 'images/DSC03533.jpg',
+    (import.meta as any).env.BASE_URL + 'images/DSC03543.jpg',
     (import.meta as any).env.BASE_URL + 'images/DSC03523.jpg',
   ],
   weddingSchedule: [
